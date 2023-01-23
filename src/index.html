@@ -10,11 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
   </head>
   <body>
-    <script>
-      function myFunction() {
-        document.getElementById("product").setAttribute("data-price", "price"); 
-      }
-      </script>
+    
     <div class="main">
       <div class="card product">
         <div class="card-image">
@@ -52,5 +48,10 @@
         </div>
       </div>
     </div>
+    <script>
+      function myFunction() {
+        document.getElementByClass("product").setAttribute("price", "data-price"); 
+      }
+      </script>
   </body>
 </html>
